@@ -1,3 +1,4 @@
+//implement stack using LinkedList
 public class StackLink {
     static class Node{
         int data;
