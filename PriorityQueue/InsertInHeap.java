@@ -22,12 +22,12 @@ public class InsertInHeap {
             return arr.get(0);
         }
 
-        private void heapify(int i){
+        /*private void heapify(int i){
             int left=2*i+1;
             int right=2*i+2;
             int minIdx=i;
 
-            if(left<arr.size()-1 && )
+            if(left<arr.size()-1 && ){}
         }
         public static int remove(){
             //Step 1 - swap first and last
@@ -41,6 +41,7 @@ public class InsertInHeap {
             //step 3- heapify
 
         }
+        */
     }
     public static void main(String[] args) {
         Heap h=new Heap();
