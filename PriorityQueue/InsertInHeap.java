@@ -17,6 +17,30 @@ public class InsertInHeap {
                 arr.set(par,temp);
             }
         }
+
+        public static int peek(){
+            return arr.get(0);
+        }
+
+        private void heapify(int i){
+            int left=2*i+1;
+            int right=2*i+2;
+            int minIdx=i;
+
+            if(left<arr.size()-1 && )
+        }
+        public static int remove(){
+            //Step 1 - swap first and last
+            int temp=arr.get(0);
+            arr.set(0,arr.get(arr.size()-1));
+            arr.set(arr.size()-1,arr.get(0));
+
+            //Step 2 - delete last
+            arr.remove(arr.size()-1);
+
+            //step 3- heapify
+
+        }
     }
     public static void main(String[] args) {
         Heap h=new Heap();
